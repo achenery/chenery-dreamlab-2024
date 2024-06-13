@@ -5,4 +5,6 @@ permalink: /timelinejs.html
 ---
 {% include feature/timelinejs.html %}
 
-body {background-color: AntiqueWhite;}
+body {
+	background-color: #FAEBD7;
+}
