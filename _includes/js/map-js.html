@@ -159,7 +159,6 @@
         layer.bindPopup(popupTemplate);
     }
 
-    color: getColor(feature)
 function getColor(feature){
   switch (feature.properties["subject"]) {
             case 'school':
@@ -172,13 +171,14 @@ function getColor(feature){
               return 'purple';
             case 'dwelling':
               return 'brown';
+
 case 'mosque':
               return 'lavender';
 default:
               return 'black';
           }
         }
-        
+
     /* function to add objects to map */
     function objectMarkers(feature,latlng){
    var marker = new L.CircleMarker(latlng, {
